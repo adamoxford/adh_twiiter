@@ -68,7 +68,7 @@ linksChatter2 %>%
     plot.title = ggplot2::element_text(face = "bold")) +
   ggplot2::labs(
     x = NULL, y = NULL,
-    title = "Frequency of Twitter statuses mentioning mg.co.za",
+    title = "Frequency of Twitter statuses mentioning Africa Data Hub",
     caption = "\nSource: Data collected from Twitter's REST API via rtweet" +
       ggplot2::scale_fill_discrete(labels = c("Tweets", "Retweets"))
   )
@@ -78,6 +78,17 @@ whoTweets <- linksChatter2 %>% count(screen_name)
 whoTweets <- whoTweets[order(whoTweets$n, na.last=FALSE, decreasing = TRUE),]
 
 write.csv(whoTweets, file = "whoTweets.csv", quote = FALSE)
+
+#Data for GDS retweet chart
+
+whenTweets <- linksChatter2 %>% select(created_at, is_retweet)
+whenTweets$created_at <- as_date(whenTweets$created_at)
+
+whenTweets2 <- whenTweets %>%
+  count(created_at, is_retweet)
+write.csv(whenTweets2, file = "whenTweets.csv", quote = FALSE)
+
+  
 # day Tweeted
 
 dayTweets <- linksChatter2 %>% select(created_at)
