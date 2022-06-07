@@ -3,6 +3,7 @@
 # install.packages("dplyr")
 # install.packages("tokenizers")
 # install.packages("lubridate")
+# install.packages("tidyr")
 
 
 library(ggplot2)
@@ -11,6 +12,7 @@ library(rtweet)
 library(dplyr)
 library(tokenizers)
 library(lubridate)
+library(tidyr)
 
 #set the WD
 
@@ -85,7 +87,9 @@ whenTweets <- linksChatter2 %>% select(created_at, is_retweet)
 whenTweets$created_at <- as_date(whenTweets$created_at)
 
 whenTweets2 <- whenTweets %>%
-  count(created_at, is_retweet)
+  count(created_at, is_retweet) %>%
+  pivot_wider(names_from = is_retweet, values_from = n)
+  
 write.csv(whenTweets2, file = "whenTweets.csv", quote = FALSE)
 
   
