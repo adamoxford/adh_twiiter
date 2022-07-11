@@ -105,3 +105,23 @@ write.csv(dayTweets, file = "dayTweets.csv", quote = FALSE, sep = ",")
 retweetSource <- linksChatter2 %>% select(retweet_source)
 retweetSource <- retweetSource %>% count(retweet_source)
 retweetSource <- retweetSource[order(retweetSource$n,  na.last=FALSE, decreasing = TRUE),]
+
+#import Vimeo data
+
+#set date
+yesterdayDate <- 2022-07-10
+
+#create url variables
+videosURL <- paste0("https://api.vimeo.com/export/csv?jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjMzMTIxNjYxOTQsInVzZXJfaWQiOjEzNjQyMzAzNiwiYXBwX2lkIjo1ODQ3OSwic2NvcGVzIjoicHVibGljIGludGVyYWN0IHByaXZhdGUgdXBsb2FkIGNyZWF0ZSBlZGl0IGRlbGV0ZSBlbWFpbCBzdGF0cyIsInRlYW1fdXNlcl9pZCI6bnVsbCwidmVyc2lvbiI6My4wM30.TV4e5xEEmZxLJ_sOUVix-2b4ApILNPxcTK6wvjvM88E&export_uri=%2Fusers%2F136423036%2Fvideos%2Fstats%3Fstart_date%3D2021-06-24%26end_date%3D", yesterdayDate, "%26fields%3Dvideo.uri%252Cvideo.created_time%252Cvideo.pictures.sizes%252Cvideo.name%252Cplays%252Cloads%252Cfinishes%252Cdownloads%252Clikes%252Ccomments%252Cunique_viewers%252Cunique_loads%252Cwatched.mean_percent%252Cwatched.mean_seconds%252Cwatched.sum_seconds%26sort%3Dplays%26group_by%3Dvideo%26page%3D1%26per_page%3D15000%26csv%3Dtrue")
+dateURL <- paste0("https://api.vimeo.com/export/csv?jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjMzMTI2MzcyOTEsInVzZXJfaWQiOjEzNjQyMzAzNiwiYXBwX2lkIjo1ODQ3OSwic2NvcGVzIjoicHVibGljIGludGVyYWN0IHByaXZhdGUgdXBsb2FkIGNyZWF0ZSBlZGl0IGRlbGV0ZSBlbWFpbCBzdGF0cyIsInRlYW1fdXNlcl9pZCI6bnVsbCwidmVyc2lvbiI6My4wM30.T4CLyS_7U_OqkjLxF86akRVbLM_T6AJ0SPZbAn_MSHU&export_uri=%2Fusers%2F136423036%2Fvideos%2Fstats%3Fstart_date%3D2021-06-27%26end_date%3D", yesterdayDate, "%26fields%3Drange.start_date%252Crange.end_date%252Cplays%252Cloads%252Cfinishes%252Cdownloads%252Cunique_viewers%252Cunique_loads%252Cwatched.mean_percent%252Cwatched.mean_seconds%252Cwatched.sum_seconds%26sort%3Dplays%26group_by%3Dday%26page%3D1%26per_page%3D15000%26csv%3Dtrue")
+sourceURL <- paste0("https://api.vimeo.com/export/csv?jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjMzMTI2Mzc0MTIsInVzZXJfaWQiOjEzNjQyMzAzNiwiYXBwX2lkIjo1ODQ3OSwic2NvcGVzIjoicHVibGljIGludGVyYWN0IHByaXZhdGUgdXBsb2FkIGNyZWF0ZSBlZGl0IGRlbGV0ZSBlbWFpbCBzdGF0cyIsInRlYW1fdXNlcl9pZCI6bnVsbCwidmVyc2lvbiI6My4wM30.V3GiJvTkxovinHZBC4mRvJ05WW4_yDGqyz4d3hZ3yYk&export_uri=%2Fusers%2F136423036%2Fvideos%2Fstats%3Fstart_date%3D2021-06-27%26end_date%3D", yesterdayDate, "%26fields%3Durl%252Cplays%252Cloads%252Cfinishes%252Cdownloads%252Cunique_viewers%252Cunique_loads%252Cwatched.mean_percent%252Cwatched.mean_seconds%252Cwatched.sum_seconds%26sort%3Dplays%26group_by%3Dembed_domain%26page%3D1%26per_page%3D15000%26csv%3Dtrue")
+
+#get the data
+videosData <- read.csv(videosURL)
+dateData <- read.csv(dateURL)
+sourceData <- read.csv(sourceURL)
+
+#write out
+write.csv(videosData, "videoData.csv")
+write.csv(dateData, "dateData.csv")
+write.csv(sourceData, "sourceData.csv")
