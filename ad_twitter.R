@@ -109,7 +109,7 @@ retweetSource <- retweetSource[order(retweetSource$n,  na.last=FALSE, decreasing
 #import Vimeo data
 
 #set date
-yesterdayDate <- 2022-07-10
+yesterdayDate <- format(Sys.Date() - 1, "%Y-%m-%d")
 
 #create url variables
 videosURL <- paste0("https://api.vimeo.com/export/csv?jwt_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjMzMTIxNjYxOTQsInVzZXJfaWQiOjEzNjQyMzAzNiwiYXBwX2lkIjo1ODQ3OSwic2NvcGVzIjoicHVibGljIGludGVyYWN0IHByaXZhdGUgdXBsb2FkIGNyZWF0ZSBlZGl0IGRlbGV0ZSBlbWFpbCBzdGF0cyIsInRlYW1fdXNlcl9pZCI6bnVsbCwidmVyc2lvbiI6My4wM30.TV4e5xEEmZxLJ_sOUVix-2b4ApILNPxcTK6wvjvM88E&export_uri=%2Fusers%2F136423036%2Fvideos%2Fstats%3Fstart_date%3D2021-06-24%26end_date%3D", yesterdayDate, "%26fields%3Dvideo.uri%252Cvideo.created_time%252Cvideo.pictures.sizes%252Cvideo.name%252Cplays%252Cloads%252Cfinishes%252Cdownloads%252Clikes%252Ccomments%252Cunique_viewers%252Cunique_loads%252Cwatched.mean_percent%252Cwatched.mean_seconds%252Cwatched.sum_seconds%26sort%3Dplays%26group_by%3Dvideo%26page%3D1%26per_page%3D15000%26csv%3Dtrue")
@@ -122,6 +122,6 @@ dateData <- read.csv(dateURL)
 sourceData <- read.csv(sourceURL)
 
 #write out
-write.csv(videosData, "videoData.csv")
-write.csv(dateData, "dateData.csv")
-write.csv(sourceData, "sourceData.csv")
+write.csv(videosData, "videoData.csv", row.names = FALSE)
+write.csv(dateData, "dateData.csv", row.names = FALSE)
+write.csv(sourceData, "sourceData.csv", row.names = FALSE)
