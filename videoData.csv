@@ -1,40 +1,40 @@
 "plays","loads","downloads","finishes","likes","comments","uri","name","created_time","sizes","unique_loads","mean_seconds","mean_percent","sum_seconds","unique_viewers"
 NA,NA,NA,NA,NA,NA,"","","","",NA,NA,NA,NA,NA
-13,311,0,1,0,0,"/videos/618327412","Building COVID Dashboards: Lessons Learnt","2021-09-29T21:13:53+00:00","Array",56,836,24,10870,12
-15,833,0,2,0,0,"/videos/625297692","Resurgence Map tutorial","2021-10-07T09:46:14+00:00","Array",100,61,34,919,10
-16,340,1,0,0,0,"/videos/630053579","Grappling with Vaccine Misinformation: The do’s and don’ts of COVID-19 reporting","2021-10-12T12:53:24+00:00","Array",61,754,22,12067,11
+13,314,0,1,0,0,"/videos/618327412","Building COVID Dashboards: Lessons Learnt","2021-09-29T21:13:53+00:00","Array",57,836,24,10870,12
+15,845,0,2,0,0,"/videos/625297692","Resurgence Map tutorial","2021-10-07T09:46:14+00:00","Array",101,61,34,919,10
+16,350,1,0,0,0,"/videos/630053579","Grappling with Vaccine Misinformation: The do’s and don’ts of COVID-19 reporting","2021-10-12T12:53:24+00:00","Array",62,754,22,12067,11
 42,182,2,1,0,0,"/videos/649434307","A discussion around the development and implementation of Gender Equality and Social Inclusion frameworks","2021-11-24T10:17:52+00:00","Array",62,923,21,38780,24
-50,1563,0,6,1,0,"/videos/651915897","Resurgence Map Tutorial 2.mp4","2021-12-01T08:51:15+00:00","Array",126,196,23,9833,31
-139,379,9,50,4,0,"/videos/677142259","Module 1: Basic spreadsheets 1","2022-02-14T11:27:24+00:00","Array",131,218,54,30389,89
-45,158,3,20,0,0,"/videos/677146459","Module 1: Basic visualisations 1","2022-02-14T11:37:24+00:00","Array",49,337,71,15178,29
-44,148,3,20,0,0,"/videos/677147474","Module 1: Basic visualisations 3","2022-02-14T11:40:19+00:00","Array",46,338,66,14911,28
-60,187,6,25,1,0,"/videos/677151146","Module 1: Basic spreadsheets 2","2022-02-14T11:48:49+00:00","Array",63,553,62,33216,37
-38,131,3,19,0,1,"/videos/677162814","Module 1: Basic visualisations 2","2022-02-14T12:16:49+00:00","Array",43,258,76,9823,27
-40,156,2,13,0,0,"/videos/687841042","Module 2: Structured data","2022-03-14T08:05:48+00:00","Array",49,317,69,12713,27
-38,113,1,14,0,0,"/videos/687843336","Module 2: Filtering","2022-03-14T08:15:11+00:00","Array",38,229,70,8707,22
-32,117,3,15,0,0,"/videos/687845520","Module 2: Sorting","2022-03-14T08:23:59+00:00","Array",37,156,81,5006,17
-26,104,2,11,0,0,"/videos/687846458","Module 2: Summarising","2022-03-14T08:27:41+00:00","Array",37,394,77,10253,18
-24,124,4,5,0,0,"/videos/687849796","Module 2: Pivot Tables","2022-03-14T08:40:42+00:00","Array",40,310,61,7448,19
-34,122,3,10,0,0,"/videos/700800286","Introduction to functions (formulas)","2022-04-19T11:57:31+00:00","Array",44,474,52,16144,22
-31,110,1,8,0,0,"/videos/700800296","Formulas: Percentage change","2022-04-19T11:57:34+00:00","Array",33,426,61,13211,17
-25,105,3,9,0,0,"/videos/700800320","Formulas: Rank","2022-04-19T11:57:39+00:00","Array",31,416,59,10411,16
-34,140,3,10,0,0,"/videos/700800333","Formulas: Average, Mean, Median and Mode","2022-04-19T11:57:42+00:00","Array",46,403,50,13718,20
-41,129,1,8,0,0,"/videos/700800344","Formulas: Rate","2022-04-19T11:57:45+00:00","Array",52,394,37,16192,28
-122,513,9,32,0,0,"/videos/706535757","How do I know it's Solutions Journalism","2022-05-05T13:41:45+00:00","Array",126,208,47,25481,75
-59,174,3,23,0,0,"/videos/706538448","How do I get started?","2022-05-05T13:48:37+00:00","Array",47,248,54,14651,39
-36,126,6,9,0,0,"/videos/706540657","Recommended Practises for Writing your Solutions Story","2022-05-05T13:53:39+00:00","Array",43,304,76,10967,28
-31,220,3,9,0,0,"/videos/706541915","Using Data in Pursuit of Solutions Stories","2022-05-05T13:56:34+00:00","Array",35,276,76,8561,23
-50,144,2,7,2,0,"/videos/706543125","How to Pitch your Solution Journalism Story to an Editor","2022-05-05T13:59:32+00:00","Array",47,301,47,15098,30
-31,122,3,13,1,0,"/videos/711205418","Getting started with data visualisations","2022-05-18T12:58:51+00:00","Array",41,351,66,10890,24
-18,89,1,5,0,0,"/videos/711205946","Best practises","2022-05-18T13:00:16+00:00","Array",32,483,75,8707,16
-13,80,1,3,0,0,"/videos/711209639","Flourish","2022-05-18T13:10:26+00:00","Array",25,661,69,8597,10
-22,94,1,5,0,0,"/videos/711212895","Charts","2022-05-18T13:19:23+00:00","Array",31,922,60,20285,15
-20,103,1,10,0,0,"/videos/711217162","Finding your own data (part 1): What is web scraping?","2022-05-18T13:30:39+00:00","Array",29,78,86,1578,14
-23,74,0,6,0,0,"/videos/711231114","Finding your own data (part 2): Tabula","2022-05-18T14:04:35+00:00","Array",23,530,58,12193,13
-11,51,0,6,0,0,"/videos/711235151","Finding your own data (part 3): IMPORTHTML","2022-05-18T14:14:06+00:00","Array",18,552,86,6077,9
-10,137,0,0,0,0,"/videos/711969141","How to use our Africa Data Hub Mapping Tool","2022-05-20T08:28:12+00:00","Array",31,150,12,1503,8
-16,68,0,7,0,0,"/videos/721394056","Getting started with maps","2022-06-17T10:16:33+00:00","Array",28,257,59,4112,12
-12,56,0,1,0,0,"/videos/721394892","Easy maps with Datawrapper","2022-06-17T10:19:33+00:00","Array",19,969,54,11629,10
-13,65,0,4,0,0,"/videos/721396209","Easy maps with Flourish","2022-06-17T10:24:31+00:00","Array",19,1162,65,15110,9
-14,68,1,2,0,0,"/videos/721397950","Mapshaper","2022-06-17T10:31:13+00:00","Array",17,324,57,4542,8
-31,82,0,7,0,0,"/videos/721398550","Custom maps","2022-06-17T10:33:40+00:00","Array",22,578,53,17937,12
+51,1682,0,6,1,0,"/videos/651915897","Resurgence Map Tutorial 2.mp4","2021-12-01T08:51:15+00:00","Array",129,193,22,9850,32
+143,397,9,52,4,0,"/videos/677142259","Module 1: Basic spreadsheets 1","2022-02-14T11:27:24+00:00","Array",133,218,54,31198,90
+46,165,3,21,0,0,"/videos/677146459","Module 1: Basic visualisations 1","2022-02-14T11:37:24+00:00","Array",52,340,72,15648,30
+45,157,3,21,0,0,"/videos/677147474","Module 1: Basic visualisations 3","2022-02-14T11:40:19+00:00","Array",49,342,67,15421,29
+62,195,6,27,1,0,"/videos/677151146","Module 1: Basic spreadsheets 2","2022-02-14T11:48:49+00:00","Array",65,564,63,34980,38
+40,140,3,20,0,1,"/videos/677162814","Module 1: Basic visualisations 2","2022-02-14T12:16:49+00:00","Array",46,254,75,10171,28
+42,168,2,14,0,0,"/videos/687841042","Module 2: Structured data","2022-03-14T08:05:48+00:00","Array",53,317,69,13333,29
+39,118,1,15,0,0,"/videos/687843336","Module 2: Filtering","2022-03-14T08:15:11+00:00","Array",41,231,70,9034,23
+34,128,3,16,0,0,"/videos/687845520","Module 2: Sorting","2022-03-14T08:23:59+00:00","Array",40,154,79,5237,19
+28,118,2,12,0,0,"/videos/687846458","Module 2: Summarising","2022-03-14T08:27:41+00:00","Array",40,391,76,10964,20
+27,138,4,7,0,0,"/videos/687849796","Module 2: Pivot Tables","2022-03-14T08:40:42+00:00","Array",45,331,65,8953,21
+37,128,3,11,0,0,"/videos/700800286","Introduction to functions (formulas)","2022-04-19T11:57:31+00:00","Array",46,465,51,17231,23
+34,120,1,10,0,0,"/videos/700800296","Formulas: Percentage change","2022-04-19T11:57:34+00:00","Array",36,445,63,15156,19
+27,118,3,10,0,0,"/videos/700800320","Formulas: Rank","2022-04-19T11:57:39+00:00","Array",37,421,60,11380,18
+37,159,3,11,0,0,"/videos/700800333","Formulas: Average, Mean, Median and Mode","2022-04-19T11:57:42+00:00","Array",55,392,49,14525,22
+45,162,7,9,0,0,"/videos/700800344","Formulas: Rate","2022-04-19T11:57:45+00:00","Array",68,383,36,17269,32
+186,661,10,40,0,0,"/videos/706535757","How do I know it's Solutions Journalism","2022-05-05T13:41:45+00:00","Array",174,221,50,41164,110
+77,215,4,27,1,0,"/videos/706538448","How do I get started?","2022-05-05T13:48:37+00:00","Array",72,243,53,18749,53
+91,261,7,13,0,0,"/videos/706540657","Recommended Practises for Writing your Solutions Story","2022-05-05T13:53:39+00:00","Array",82,261,65,23832,60
+37,239,4,13,0,0,"/videos/706541915","Using Data in Pursuit of Solutions Stories","2022-05-05T13:56:34+00:00","Array",45,289,79,10721,29
+79,234,3,9,2,0,"/videos/706543125","How to Pitch your Solution Journalism Story to an Editor","2022-05-05T13:59:32+00:00","Array",76,273,42,21597,50
+34,129,3,15,1,0,"/videos/711205418","Getting started with data visualisations","2022-05-18T12:58:51+00:00","Array",44,351,66,11947,26
+22,97,1,7,0,0,"/videos/711205946","Best practises","2022-05-18T13:00:16+00:00","Array",35,454,70,9994,18
+17,90,1,5,0,0,"/videos/711209639","Flourish","2022-05-18T13:10:26+00:00","Array",28,718,75,12216,12
+26,100,1,7,0,0,"/videos/711212895","Charts","2022-05-18T13:19:23+00:00","Array",34,906,59,23575,18
+25,115,1,12,0,0,"/videos/711217162","Finding your own data (part 1): What is web scraping?","2022-05-18T13:30:39+00:00","Array",32,74,82,1874,17
+25,80,0,8,0,0,"/videos/711231114","Finding your own data (part 2): Tabula","2022-05-18T14:04:35+00:00","Array",25,559,62,13999,15
+13,54,0,8,0,0,"/videos/711235151","Finding your own data (part 3): IMPORTHTML","2022-05-18T14:14:06+00:00","Array",20,565,88,7353,11
+10,138,0,0,0,0,"/videos/711969141","How to use our Africa Data Hub Mapping Tool","2022-05-20T08:28:12+00:00","Array",31,150,12,1503,8
+17,71,0,8,0,0,"/videos/721394056","Getting started with maps","2022-06-17T10:16:33+00:00","Array",29,267,61,4547,13
+16,62,0,2,0,0,"/videos/721394892","Easy maps with Datawrapper","2022-06-17T10:19:33+00:00","Array",21,1022,57,16353,11
+17,70,0,5,0,0,"/videos/721396209","Easy maps with Flourish","2022-06-17T10:24:31+00:00","Array",20,1151,64,19576,10
+17,74,1,4,0,0,"/videos/721397950","Mapshaper","2022-06-17T10:31:13+00:00","Array",19,367,64,6242,10
+38,92,0,10,0,0,"/videos/721398550","Custom maps","2022-06-17T10:33:40+00:00","Array",25,637,59,24239,15
