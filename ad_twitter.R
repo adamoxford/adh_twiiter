@@ -1,10 +1,10 @@
-# install.packages("httr")
-# install.packages("rtweet")
-# install.packages("dplyr")
-# install.packages("tokenizers")
-# install.packages("lubridate")
-# install.packages("tidyr")
-
+#install.packages("httr")
+#install.packages("rtweet")
+#install.packages("dplyr")
+#install.packages("tokenizers")
+#install.packages("lubridate")
+#install.packages("tidyr")
+#install.packages("ggplot2")
 
 library(ggplot2)
 library(httr)
@@ -30,9 +30,10 @@ token <- create_token(
 
 linksChatter <- read_twitter_csv("links1.csv", unflatten = TRUE)
 
+
 #get new data
 
-linksChatter1 <- search_tweets("@Africa_DataHub OR africadatahub.org", n=18000)
+linksChatter1 <- search_tweets("@Africa_DataHub OR africadatahub.org", n=18000, include_rts = FALSE)
 
 # Make the retweet columns english
 
