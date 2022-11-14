@@ -1,9 +1,9 @@
 "plays","loads","downloads","finishes","domain","path","unique_loads","mean_seconds","mean_percent","sum_seconds","unique_viewers"
-1676,4465,115,505,"vimeo.com","/",554,373,51,625766,317
-55,899,0,3,"africadatahub.org","/",136,477,27,26265,35
+1688,4484,115,509,"vimeo.com","/",556,373,51,630728,317
+55,938,0,3,"africadatahub.org","/",145,477,27,26265,35
 7,7,0,0,"linktr.ee","/",2,569,13,3983,2
 7,43,0,0,"africadatahub.webflow.io","/",7,39,7,274,3
-7,1035,14,0,"UNKNOWN","/",57,20,2,143,2
+7,1041,14,0,"UNKNOWN","/",57,20,2,143,2
 5,76,0,0,"webflow.com","/",2,5,1,29,1
 1,3,0,0,"google.com","/",2,0,0,0,1
 0,9,0,0,"aula.marketingandweb.es","/",0,0,0,0,0
@@ -18,7 +18,7 @@
 0,3,0,0,"mitocode.com","/",0,0,0,0,0
 0,8,0,0,"members.urm.academy","/",0,0,0,0,0
 0,2,0,0,"measuresummit.com","/",0,0,0,0,0
-0,2806,0,0,"cdn.embedly.com","/",128,0,0,0,0
+0,3321,0,0,"cdn.embedly.com","/",135,0,0,0,0
 0,29,0,0,"fantrie.com","/",0,0,0,0,0
 0,2,0,0,"immocation.de","/",0,0,0,0,0
 0,46,0,0,"patreon.com","/",0,0,0,0,0
